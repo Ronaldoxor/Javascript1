@@ -42,3 +42,30 @@ console.log(parseInt(numFloat));
 let numString ="123.456";
 console.log(parseFloat(numString));
 
+//METODOS
+
+// = verifica o tamanho da string
+let frase = "O mundo da tecnologia";
+console.log(frase.length);
+
+//indexOf -retorna um trecho do texto
+
+let texto="A programação indomável e sustentável";
+console.log(texto.indexOf("ão"));
+
+
+//slice - retorna um trecho do texto com início e final
+
+let info = "Processamento de ponta";
+console.log(info.slice(16,25));
+
+//OPERADORES ARITMÉTICOS
+
+const num1 = 10;
+const num2 = 20;
+
+console.log(num1 + num2);
+console.log(num1 - num2);
+console.log(num1 * num2);
+console.log(num1 / num2);
+console.log(num1 ** num2);
